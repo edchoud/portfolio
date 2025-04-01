@@ -29,7 +29,6 @@
   </p>
 </section>
 
-
   <!-- PROJECTS SECTION -->
   <section id="projects">
     <h2>Projects</h2>
@@ -39,15 +38,16 @@
   </section>
 
   <!-- CONTACT SECTION -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you'd like to connect, collaborate or just say hello — feel free to drop me a message!</p>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
 
   <!-- FOOTER -->
   <footer>
